@@ -1,8 +1,20 @@
 # -*- coding: utf-8 -*-
 """
-Spyder Editor
-
-This is a temporary script file.
+Auth: katelynrm
+Problem 1 of Lesson 1 in Auto GIS course
 """
-def createPointGeom():
+from shapely.geometry import Point, LineString, Polygon
+
+
+def createPointGeom(x, y):
+    '''This will create a point
+    Parameters
+    ---------
+    x <numerical>
+    y <numerical>
     
+    Returns
+    ---------
+    One point
+    '''
+    return Point(x,y)
